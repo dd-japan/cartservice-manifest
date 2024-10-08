@@ -49,7 +49,7 @@ spec:
               - all
           privileged: false
           # readOnlyRootFilesystem: true
-        image: public.ecr.aws/b1o7r7e0/cartservicec:e7e6f16e0bdd2535b0a06c7e26f622406f9a9a0f
+        image: public.ecr.aws/b1o7r7e0/cartservice:e7e6f16e0bdd2535b0a06c7e26f622406f9a9a0f
         ports:
         - containerPort: 7070
         env:
